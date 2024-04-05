@@ -1,12 +1,15 @@
 * {
 	margin: 0;
+	color: #2c1936;
+	font-family: 'Tac One', sans-serif;
+	font-style: normal;
 }
 
 .intro {
 	padding: 100px;
 }
 .companyName {
-	font-size: 46px;
+	font-size: 75px;
 	display: flex;
 	justify-content: center;
 	margin: 20px;
@@ -14,11 +17,51 @@
 .companyAbout {
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	margin-bottom: 30px;
-	font-size: 26px;
+	font-size: 41px;
 }
 .hr {
 	border: 1px dashed grey;
+}
+
+.container {
+	padding: 85px;
+}
+
+.subContainer1,
+.subContainer2,
+.subContainer3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 55px;
+	margin: 15px;
+}
+
+.teamHeading {
+	font-size: 48px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.teamTitle {
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+
+.id {
+	transition: transform 0.2s;
+}
+
+.id:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5);
 }
 
 .image {
@@ -29,17 +72,13 @@
 
 .name {
 	font-size: 24px;
+	display: flex;
+	justify-content: center;
 }
 
 .designation {
+	display: flex;
+	justify-content: center;
 	font-size: 18px;
 	font-family: italic;
-}
-
-.container1,
-.container2,
-.container3,
-{
-	display: flex;
-	flex-direction: row;
 }
